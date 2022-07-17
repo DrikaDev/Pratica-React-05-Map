@@ -1,38 +1,59 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 3rem;
+  color: green;
+  width: 100%;
   text-align: center;
+  margin-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section{
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.cards{
+  width: 22rem;
+  height: 30rem;
+  text-align: center;
+  margin-top: 30px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.1rem;
+  transition: 1s all;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards:hover{
+  transform: scale(1.1);
+}
+
+img{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 15rem;
+  border-radius: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+p{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1rem;
+  color: green;
 }
