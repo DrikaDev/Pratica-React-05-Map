@@ -69,7 +69,7 @@ export default class App extends Component{
       <section>
         {/* Primeiro tem que mapear o array: */}
         {this.state.frutas.map((item) =>(
-          <nav key={(item.id)} className= "cards">
+          <nav key={item.id} className= "cards">
             <figure className="cards_img">
               <img src={item.img} alt="Fruta"/>
             </figure>        
