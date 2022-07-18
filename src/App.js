@@ -67,10 +67,13 @@ export default class App extends Component{
       <>
       <h1>Frutas que emagrecem e suas calorias</h1>
       <section>
+        {/* Primeiro tem que mapear o array: */}
         {this.state.frutas.map((item) =>(
-          <nav key={(item.id)} className= "cards">        
-            <ul>
+          <nav key={(item.id)} className= "cards">
+            <figure className="cards_img">
               <img src={item.img} alt="Fruta"/>
+            </figure>        
+            <ul className="cards_info">
               <li>Fruta: {item.nome}</li>
               <li>Caloria: {item.calorias}</li>
               <li>Porção recomendada: {item.porcaoRecomendada}</li>
