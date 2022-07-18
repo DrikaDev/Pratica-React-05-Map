@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Pratica-React-05-Map/static/css/main.87471211.css",
+    "main.js": "/Pratica-React-05-Map/static/js/main.55fbbbd6.js",
+    "static/js/787.57d4d9af.chunk.js": "/Pratica-React-05-Map/static/js/787.57d4d9af.chunk.js",
+    "static/media/morango.webp": "/Pratica-React-05-Map/static/media/morango.2803c585d0879a7b2bae.webp",
+    "static/media/pera.webp": "/Pratica-React-05-Map/static/media/pera.e4797268089f63e6adc3.webp",
+    "static/media/maca.webp": "/Pratica-React-05-Map/static/media/maca.39aadd630a649c159bef.webp",
+    "static/media/kiwi.webp": "/Pratica-React-05-Map/static/media/kiwi.8cae47746ac72e8229ae.webp",
+    "static/media/tangerina.webp": "/Pratica-React-05-Map/static/media/tangerina.1df2f64e472708eed521.webp",
+    "static/media/mamao.webp": "/Pratica-React-05-Map/static/media/mamao.9c6b994552ef5662eba5.webp",
+    "index.html": "/Pratica-React-05-Map/index.html",
+    "main.87471211.css.map": "/Pratica-React-05-Map/static/css/main.87471211.css.map",
+    "main.55fbbbd6.js.map": "/Pratica-React-05-Map/static/js/main.55fbbbd6.js.map",
+    "787.57d4d9af.chunk.js.map": "/Pratica-React-05-Map/static/js/787.57d4d9af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87471211.css",
+    "static/js/main.55fbbbd6.js"
+  ]
+}
